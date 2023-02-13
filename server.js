@@ -14,3 +14,7 @@ const PORT = process.env.PORT || 3001;
 
 const handlebars = exphbs.create({ helpers });
 
+
+app.use(express.json());
+
+
