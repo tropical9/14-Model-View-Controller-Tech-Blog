@@ -1,3 +1,4 @@
-node_modules
+# these files will not be commited to gitnode_modules
 .env
 .DS_Store
+
