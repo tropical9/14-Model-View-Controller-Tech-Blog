@@ -25,7 +25,7 @@ User.init (
             type: DataTypes.STRING, 
             allowNull: false,
             validate: {
-                len: [4]
+                len: [8]
             }
         }
     },
@@ -39,6 +39,13 @@ User.init (
                 updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
                 return updatedUserData;
             }
-        }
+        },
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'user',
     }
-)
+);
+
+module.exports = User;
