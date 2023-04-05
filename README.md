@@ -6,7 +6,7 @@ This project was created for the week 14 challenge of my bootcamp. The goal of t
 ![img](./assets/Homepage.jpg)
 
 ## Installation
-Deoployed in Heroku
+Deployed in Heroku
 
 ## Usage
 ## Credits
