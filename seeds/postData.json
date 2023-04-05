@@ -6,7 +6,12 @@
 
     {
         "title": "My seeded post 2",
-        "content": "I'm very excited to build my second Blog"
+        "content": "My second post"
+    },
+
+    {
+        "title": "My seeded post 3",
+        "content": "My third post"
     }
 
 ]
