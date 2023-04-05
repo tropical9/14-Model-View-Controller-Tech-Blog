@@ -13,20 +13,20 @@
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <div class="container-fluid"> 
     <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="money">💻</span>
-        <a href="/">Tech Blog</a>
-      </h1>
+        <a class = "navbar-brand" href="/">Tech Blog</a>
+      
       
         <!-- Conditionally render login or logout links -->
        
         {{#if logged_in}}
-        <a href="/homepage">homepage</a> |
+        <a href="/homepage">homepage</a> 
 
           <nav>
-        <button class="no-button" id="logout">logout</button>
+        <button class="navbar-toggler" type="button" id="logout">logout
+            
+        </button>
         {{else}}
         <a href="/login">login</a>
         <a href="/homepage"> Homepage </a>
